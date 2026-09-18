@@ -5,7 +5,7 @@
 * Resumen: El módulo reúne algunas funciones para calcular la velocidad
 *          con que un pin cambia de estado.
 * Autor:   Guillermo Caporaletti <gfcaporaletti@undav.edu.ar>
-* Fecha:   Abril de 2023
+* Fecha:   Mayo 2026
 ******************************************************************************/
 
 /******************************************************************************
@@ -18,7 +18,7 @@
 * Constantes definidas
 ******************************************************************************/
 
-#define MAX_VUELTAS_RPM       3000                // Máxima cantidad de vueltas por minuto, físicamente posible
+#define MAX_VUELTAS_RPM       3000                // Máxima cantidad de vueltas por minuto, físicamente posible.
                                                   // (se recomienda poner un 50% más que el real).
 #define MAX_VUELTAS_PS        MAX_VUELTAS_RPM/60  // Máxima cantidad de vueltas por segundo, físicamente posible.
 #define CAMBIOS_P_VUELTA      4                   // Cambios de estado producidos en cada vuelta.
