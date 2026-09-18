@@ -1,0 +1,38 @@
+# Archivos de miniatura y vista de carpeta
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+
+# Papelera de reciclaje
+$RECYCLE.BIN/
+
+# Archivos de instalación/actualización de Windows
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Accesos directos
+*.lnk
+
+# Archivos de volcado de memoria (crashes)
+*.stackdump
+
+# Carpeta de configuración de Windows Explorer
+[Dd]esktop.ini
+
+# Archivos temporales del sistema
+*.tmp
+*.temp
+
+# Archivos de indexación
+*.dat
+
+# Windows Installer
+*.msp
+
+# Archivos de red (unidades mapeadas)
+*.lnk
